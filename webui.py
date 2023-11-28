@@ -22,6 +22,8 @@ from modules.auth import auth_enabled, check_auth
 
 
 def generate_clicked(*args):
+    print("1717178822ddfw21")
+    print(args)
     import fcbh.model_management as model_management
 
     with model_management.interrupt_processing_mutex:
